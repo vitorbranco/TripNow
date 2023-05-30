@@ -1,4 +1,4 @@
-package com.vitorxbranco.tripnow
+package com.vitorxbranco.tripnow.data
 
 data class User(
     val gender: String,

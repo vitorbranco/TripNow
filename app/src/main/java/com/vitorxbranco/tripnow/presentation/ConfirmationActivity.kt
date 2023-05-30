@@ -1,9 +1,11 @@
-package com.vitorxbranco.tripnow
+package com.vitorxbranco.tripnow.presentation
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.vitorxbranco.tripnow.R
+import com.vitorxbranco.tripnow.data.User
 import kotlinx.android.synthetic.main.activity_confirmation.*
 
 class ConfirmationActivity : AppCompatActivity() {

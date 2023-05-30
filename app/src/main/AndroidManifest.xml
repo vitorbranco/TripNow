@@ -12,10 +12,10 @@
         android:theme="@style/Theme.TripNow"
         tools:targetApi="31">
         <activity
-            android:name=".ConfirmationActivity"
+            android:name=".presentation.ConfirmationActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

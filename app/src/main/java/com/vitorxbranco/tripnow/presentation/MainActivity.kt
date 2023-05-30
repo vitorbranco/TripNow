@@ -1,9 +1,11 @@
-package com.vitorxbranco.tripnow
+package com.vitorxbranco.tripnow.presentation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import com.vitorxbranco.tripnow.R
+import com.vitorxbranco.tripnow.data.User
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -37,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             edit_text_password.text.toString()
         )
 
-        val intent = Intent(this,ConfirmationActivity::class.java)
+        val intent = Intent(this, ConfirmationActivity::class.java)
         intent.putExtra("User", user)
         startActivity(intent)
     }
